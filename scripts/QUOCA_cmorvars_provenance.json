@@ -1,0 +1,1010 @@
+{
+  "QUOCA_mon_psl": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "psl",
+    "spreadsheet long_name": "Sea Level Pressure",
+    "spreadsheet units": "Pa",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_mon_psl"
+  },
+  "QUOCA_mon_ps": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "ps",
+    "spreadsheet long_name": "Surface Air Pressure",
+    "spreadsheet units": "Pa",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "CCMI2022_Amon_ps"
+  },
+  "QUOCA_mon_prc": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "prc",
+    "spreadsheet long_name": "Convective Precipitation Flux",
+    "spreadsheet units": "kgs-1m-2",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_mon_prc"
+  },
+  "QUOCA_mon_pr": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "pr",
+    "spreadsheet long_name": "Total Precipitation Flux",
+    "spreadsheet units": "kgs-1m-2",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_mon_pr"
+  },
+  "QUOCA_mon_rlut": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "rlut",
+    "spreadsheet long_name": "Outgoing Longwave Radiation",
+    "spreadsheet units": "Wm-2",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "CCMI2022_Amon_rlut"
+  },
+  "QUOCA_mon_tas": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "tas",
+    "spreadsheet long_name": "Near-Surface Air Temperature",
+    "spreadsheet units": "K",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_mon_tas"
+  },
+  "QUOCA_mon_uas": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "uas",
+    "spreadsheet long_name": "Eastward Near-Surface Wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_mon_uas"
+  },
+  "QUOCA_mon_vas": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "vas",
+    "spreadsheet long_name": "Northward Near-Surface Wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_mon_vas"
+  },
+  "QUOCA_mon_ptp": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "ptp",
+    "spreadsheet long_name": "Tropopause Air Pressure",
+    "spreadsheet units": "Pa",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "CCMI2022_Amon_ptp"
+  },
+  "QUOCA_mon_tatp": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "tatp",
+    "spreadsheet long_name": "Tropopause Air Temperature",
+    "spreadsheet units": "K",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "CCMI2022_Amon_tatp"
+  },
+  "QUOCA_mon_ta": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "ta",
+    "spreadsheet long_name": "Air Temperature",
+    "spreadsheet units": "K",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_mon_ta"
+  },
+  "QUOCA_mon_ua": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "ua",
+    "spreadsheet long_name": "Eastward Wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_mon_ua"
+  },
+  "QUOCA_mon_va": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "va",
+    "spreadsheet long_name": "Northward Wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_mon_va"
+  },
+  "QUOCA_mon_wap": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "wa",
+    "spreadsheet long_name": "Vertical velocity",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "CMIP6_Emon_wap"
+  },
+  "QUOCA_mon_zg": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "zg",
+    "spreadsheet long_name": "Geopotential Height",
+    "spreadsheet units": "m",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_mon_zg"
+  },
+  "QUOCA_mon_precip": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "precip",
+    "spreadsheet long_name": "Precipitation flux",
+    "spreadsheet units": "kg m-2 s-1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_mon_pr"
+  },
+  "QUOCA_mon_cod": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "cod",
+    "spreadsheet long_name": "Cloud optical depth",
+    "spreadsheet units": "1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "CCMI2022_Amon_cod"
+  },
+  "QUOCA_mon_convec-cloud-area-frac": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "convec_cloud_area_frac",
+    "spreadsheet long_name": "Convective Cloud Area",
+    "spreadsheet units": "%",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "CCMI2022_Amon_cltc"
+  },
+  "QUOCA_mon_cloud-area-frac": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "cloud_area_frac",
+    "spreadsheet long_name": "Total Cloud Cover Area",
+    "spreadsheet units": "%",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "CCMI2022_Amon_clt"
+  },
+  "QUOCA_mon_o3-col": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "O3 _col",
+    "spreadsheet long_name": "Total column ozone",
+    "spreadsheet units": "DU",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "CCMI2022_Amon_toz"
+  },
+  "QUOCA_mon_sad": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "SAD",
+    "spreadsheet long_name": "Surface Area Density of Sulfate Aerosol",
+    "spreadsheet units": "m-1",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_mon_nat": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "NAT",
+    "spreadsheet long_name": "Surface Area Density of NAT PSC Particles",
+    "spreadsheet units": "m-1",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_mon_psc": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "PSC",
+    "spreadsheet long_name": "Surface Area Density of Water Ice PSC Particles",
+    "spreadsheet units": "m-1",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_zmtnt": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "zmtnt",
+    "spreadsheet long_name": "Total Temperature Tendency",
+    "spreadsheet units": "Ks-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_tntrl": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "tntrl",
+    "spreadsheet long_name": "All sky longwave Heating Rate",
+    "spreadsheet units": "Ks-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_tntrl"
+  },
+  "QUOCA_monZ_tntrlcs": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "tntrlcs",
+    "spreadsheet long_name": "Clear sky longwave Heating Rate",
+    "spreadsheet units": "Ks-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CMIP6_EmonZ_tntrlcs"
+  },
+  "QUOCA_monZ_tntrs": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "tntrs",
+    "spreadsheet long_name": "All sky shortwave Heating Rate",
+    "spreadsheet units": "Ks-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_tntrs"
+  },
+  "QUOCA_monZ_tntrscs": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "tntrscs",
+    "spreadsheet long_name": "Clear sky shortwave Heating Rate",
+    "spreadsheet units": "Ks-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CMIP6_EmonZ_tntrscs"
+  },
+  "QUOCA_monZ_ua": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "ua",
+    "spreadsheet long_name": "Eastward wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_ua"
+  },
+  "QUOCA_monZ_va": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "va",
+    "spreadsheet long_name": "Northward wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_va"
+  },
+  "QUOCA_monZ_wap": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "wa",
+    "spreadsheet long_name": "Vertical velocity",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_vtem": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "vtem",
+    "spreadsheet long_name": "Residual Northward Winds",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_vtem"
+  },
+  "QUOCA_monZ_wtem": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "wtem",
+    "spreadsheet long_name": "Residual Upward Wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_wtem"
+  },
+  "QUOCA_monZ_psitem": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "psitem",
+    "spreadsheet long_name": "Transformed Eulerian Mean Mass Streamfunction",
+    "spreadsheet units": "kgs-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_psitem"
+  },
+  "QUOCA_monZ_epfy": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "epfy",
+    "spreadsheet long_name": "Northward Component of the Eliassen-Palm Flux",
+    "spreadsheet units": "m3s-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_epfy"
+  },
+  "QUOCA_monZ_epfz": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "epfz",
+    "spreadsheet long_name": "Upward Component of the Eliassen-Palm Flux",
+    "spreadsheet units": "m3s-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_epfz"
+  },
+  "QUOCA_monZ_ta": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "ta",
+    "spreadsheet long_name": "Air temperature",
+    "spreadsheet units": "K",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_ta"
+  },
+  "QUOCA_monZ_zg": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "zg",
+    "spreadsheet long_name": "Geopotential height",
+    "spreadsheet units": "m",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_zg"
+  },
+  "QUOCA_monZ_vptp": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "v\u2019T\u2019",
+    "spreadsheet long_name": "Northward Flux of Temperature",
+    "spreadsheet units": "ms-1K",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_upvp": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "u\u2019v\u2019",
+    "spreadsheet long_name": "Northward flux of Eastward Momentum",
+    "spreadsheet units": "m2s-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_upwp": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "u\u2019w\u2019",
+    "spreadsheet long_name": "Upward Flux of Eastward Momentum",
+    "spreadsheet units": "m2s-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_utendmp": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "utendmp",
+    "spreadsheet long_name": "Eastward wind net tendency due to all parameterized processes",
+    "spreadsheet units": "ms-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_utendmp"
+  },
+  "QUOCA_monZ_utendogw": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "utendogw",
+    "spreadsheet long_name": "Eastward wind tendency by orographic gravity waves",
+    "spreadsheet units": "ms-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_utendogw"
+  },
+  "QUOCA_monZ_utendnogw": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "utendnogw",
+    "spreadsheet long_name": "Eastward wind tendency by non-orographic gravity waves",
+    "spreadsheet units": "ms-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_utendnogw"
+  },
+  "QUOCA_monZ_vtendmp": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "vtendmp",
+    "spreadsheet long_name": "Northward wind net tendency due to all parameterized processes",
+    "spreadsheet units": "ms-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_vtendogw": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "vtendogw",
+    "spreadsheet long_name": "Northward wind tendency by orographic gravity waves",
+    "spreadsheet units": "ms-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_vtendnogw": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "vtendnogw",
+    "spreadsheet long_name": "Northward wind tendency by non-orographic gravity waves",
+    "spreadsheet units": "ms-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CMIP6_EmonZ_vtendnogw"
+  },
+  "QUOCA_monZ_o3": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "O3",
+    "spreadsheet long_name": "Ozone",
+    "spreadsheet units": "ppm",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_o3"
+  },
+  "QUOCA_monZ_h2o": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "H2O",
+    "spreadsheet long_name": "Water Vapor",
+    "spreadsheet units": "ppm",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CMIP6_AERmonZ_h2o"
+  },
+  "QUOCA_monZ_o3s": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "O3S",
+    "spreadsheet long_name": "Stratospheric ozone tracer",
+    "spreadsheet units": "ppm",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_monZ_o3"
+  },
+  "QUOCA_monZ_o3ste": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "O3STE",
+    "spreadsheet long_name": "Net stratosphere-to-troposphere exchange O3 flux",
+    "spreadsheet units": "Tg/year",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_aod": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "AOD",
+    "spreadsheet long_name": "Aerosol Optical Depth",
+    "spreadsheet units": null,
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_e90": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "e90",
+    "spreadsheet long_name": "e90",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_aoa": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "AOA",
+    "spreadsheet long_name": "Stratospheric Mean Age-of-Air",
+    "spreadsheet units": "years",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_meanage"
+  },
+  "QUOCA_monZ_st80-25": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "ST80_25",
+    "spreadsheet long_name": "ST80_25",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_no": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "NO",
+    "spreadsheet long_name": "NO volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_no"
+  },
+  "QUOCA_monZ_no2": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "NO2",
+    "spreadsheet long_name": "NO2 volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_no2"
+  },
+  "QUOCA_monZ_n2o": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "N2O",
+    "spreadsheet long_name": "N2O volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_n2o"
+  },
+  "QUOCA_monZ_n2o5": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "N2O5",
+    "spreadsheet long_name": "N2O5 volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_n2o5"
+  },
+  "QUOCA_monZ_hno3": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "HNO3",
+    "spreadsheet long_name": "HNO3 volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_hno3"
+  },
+  "QUOCA_monZ_noy": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "NOy",
+    "spreadsheet long_name": "Total reactive nitrogen volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_noy"
+  },
+  "QUOCA_monZ_cly": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "Cly",
+    "spreadsheet long_name": "Total inorganic chlorine volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_cly"
+  },
+  "QUOCA_monZ_bry": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "Bry",
+    "spreadsheet long_name": "Total inorganic bromine volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_bry"
+  },
+  "QUOCA_monZ_cl": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "Cl",
+    "spreadsheet long_name": "Cl volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_cl"
+  },
+  "QUOCA_monZ_br": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "Br",
+    "spreadsheet long_name": "Br volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_br"
+  },
+  "QUOCA_monZ_o": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "O",
+    "spreadsheet long_name": "O volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_total-cl": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "Total Cl",
+    "spreadsheet long_name": "Total Cl volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_total-br": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "Total Br",
+    "spreadsheet long_name": "Total Br volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_clo": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "ClO",
+    "spreadsheet long_name": "ClO volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_clo"
+  },
+  "QUOCA_monZ_clno2": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "ClNO2",
+    "spreadsheet long_name": "ClNO2 volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_clono2": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "ClONO2",
+    "spreadsheet long_name": "ClONO2 volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_clono2"
+  },
+  "QUOCA_monZ_hcl": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "HCl",
+    "spreadsheet long_name": "HCl volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_hcl"
+  },
+  "QUOCA_monZ_bro": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "BrO",
+    "spreadsheet long_name": "BrO volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_bro"
+  },
+  "QUOCA_monZ_oh": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "OH",
+    "spreadsheet long_name": "OH volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_oh"
+  },
+  "QUOCA_monZ_ho2": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "HO2",
+    "spreadsheet long_name": "HO2 volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_ho2"
+  },
+  "QUOCA_monZ_ch4": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "CH4",
+    "spreadsheet long_name": "CH4 volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_ch4"
+  },
+  "QUOCA_monZ_so2": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "SO2",
+    "spreadsheet long_name": "SO2 volume mixing ratio",
+    "spreadsheet units": "ppb",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CCMI2022_AmonZ_so2"
+  },
+  "QUOCA_monZ_j-o3": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "J_O3",
+    "spreadsheet long_name": "O3 photolysis frequency",
+    "spreadsheet units": "s-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_j-o2": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "J_O2",
+    "spreadsheet long_name": "O2 photolysis frequency",
+    "spreadsheet units": "s-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "CMIP6_EmonZ_jo2"
+  },
+  "QUOCA_monZ_o3-prod": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "O3_prod",
+    "spreadsheet long_name": "Ozone production",
+    "spreadsheet units": "ppbv s-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_o3-loss": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "O3_loss",
+    "spreadsheet long_name": "Chemical ozone loss",
+    "spreadsheet units": "ppb s-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_o3-loss-ox": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "O3_loss_Ox*",
+    "spreadsheet long_name": "Chemical ozone loss by Ox",
+    "spreadsheet units": "ppb s-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_o3-loss-hox": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "O3_loss_HOx*",
+    "spreadsheet long_name": "Chemical ozone loss by HOx",
+    "spreadsheet units": "ppb s-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_o3-loss-nox": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "O3_loss_NOx*",
+    "spreadsheet long_name": "Chemical ozone loss by NOx",
+    "spreadsheet units": "ppb s-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_monZ_o3-loss-clox": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "O3_loss_ClOx*",
+    "spreadsheet long_name": "Chemical ozone loss by ClOx",
+    "spreadsheet units": "ppb s-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_day_psl": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "psl",
+    "spreadsheet long_name": "Sea Level Pressure",
+    "spreadsheet units": "Pa",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_day_psl"
+  },
+  "QUOCA_day_ps": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "ps",
+    "spreadsheet long_name": "Surface Air Pressure",
+    "spreadsheet units": "Pa",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "CMIP6_CFday_ps"
+  },
+  "QUOCA_day_prc": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "prc",
+    "spreadsheet long_name": "Convective Precipitation Flux",
+    "spreadsheet units": "kgs-1m-2",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_day_prc"
+  },
+  "QUOCA_day_pr": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "pr",
+    "spreadsheet long_name": "Total Precipitation Flux",
+    "spreadsheet units": "kgs-1m-2",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_day_pr"
+  },
+  "QUOCA_day_rlut": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "rlut",
+    "spreadsheet long_name": "Outgoing Longwave Radiation",
+    "spreadsheet units": "Wm-2",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_day_rlut"
+  },
+  "QUOCA_day_tas": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "tas",
+    "spreadsheet long_name": "Near-Surface Air Temperature",
+    "spreadsheet units": "K",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_day_tas"
+  },
+  "QUOCA_day_uas": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "uas",
+    "spreadsheet long_name": "Eastward Near-Surface Wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_day_uas"
+  },
+  "QUOCA_day_vas": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "vas",
+    "spreadsheet long_name": "Northward Near-Surface Wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "QBOi_day_vas"
+  },
+  "QUOCA_day_ptp": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "ptp",
+    "spreadsheet long_name": "Tropopause Air Pressure",
+    "spreadsheet units": "Pa",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_day_tatp": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "tatp",
+    "spreadsheet long_name": "Tropopause Air Temperature",
+    "spreadsheet units": "K",
+    "spreadsheet dimension": "2-D (lat, lon)",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_day_ta": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "ta",
+    "spreadsheet long_name": "Air Temperature",
+    "spreadsheet units": "K",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_day_ta"
+  },
+  "QUOCA_day_ua": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "ua",
+    "spreadsheet long_name": "Eastward Wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_day_ua"
+  },
+  "QUOCA_day_va": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "va",
+    "spreadsheet long_name": "Northward Wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_day_va"
+  },
+  "QUOCA_day_wap": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "wa",
+    "spreadsheet long_name": "Vertical velocity",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "CMIP6_CFday_wap"
+  },
+  "QUOCA_day_zg": {
+    "protocol table": "Table 2",
+    "spreadsheet variable name": "zg",
+    "spreadsheet long_name": "Geopotential Height",
+    "spreadsheet units": "m",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_day_zg"
+  },
+  "QUOCA_day_precip": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "precip",
+    "spreadsheet long_name": "Precipitation flux",
+    "spreadsheet units": "kg m-2 s-1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_day_pr"
+  },
+  "QUOCA_day_cod": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "cod",
+    "spreadsheet long_name": "Cloud optical depth",
+    "spreadsheet units": "1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "CMIP6_AERday_cod"
+  },
+  "QUOCA_day_convec-cloud-area-frac": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "convec_cloud_area_frac",
+    "spreadsheet long_name": "Convective Cloud Area",
+    "spreadsheet units": "%",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_day_cloud-area-frac": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "cloud_area_frac",
+    "spreadsheet long_name": "Total Cloud Cover Area",
+    "spreadsheet units": "%",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "CMIP6_CFday_cltcalipso"
+  },
+  "QUOCA_dayZ_vtem": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "vtem",
+    "spreadsheet long_name": "Residual Northward Winds",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_dayZ_vtem"
+  },
+  "QUOCA_dayZ_wtem": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "wtem",
+    "spreadsheet long_name": "Residual Upward Wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_dayZ_wtem"
+  },
+  "QUOCA_dayZ_zg": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "zg",
+    "spreadsheet long_name": "Geopotential height",
+    "spreadsheet units": "m",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_dayZ_zg"
+  },
+  "QUOCA_dayZ_utendmp": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "utendmp",
+    "spreadsheet long_name": "Eastward wind net tendency due to all parameterized processes",
+    "spreadsheet units": "ms-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_dayZ_utendmp"
+  },
+  "QUOCA_dayZ_utendogw": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "utendogw",
+    "spreadsheet long_name": "Eastward wind tendency by orographic gravity waves",
+    "spreadsheet units": "ms-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_dayZ_utendogw"
+  },
+  "QUOCA_dayZ_utendnogw": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "utendnogw",
+    "spreadsheet long_name": "Eastward wind tendency by non-orographic gravity waves",
+    "spreadsheet units": "ms-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_dayZ_utendnogw"
+  },
+  "QUOCA_dayZ_vtendmp": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "vtendmp",
+    "spreadsheet long_name": "Northward wind net tendency due to all parameterized processes",
+    "spreadsheet units": "ms-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_dayZ_vtendogw": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "vtendogw",
+    "spreadsheet long_name": "Northward wind tendency by orographic gravity waves",
+    "spreadsheet units": "ms-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_dayZ_vtendnogw": {
+    "protocol table": "Table 3",
+    "spreadsheet variable name": "vtendnogw",
+    "spreadsheet long_name": "Northward wind tendency by non-orographic gravity waves",
+    "spreadsheet units": "ms-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_dayZ_o3": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "O3",
+    "spreadsheet long_name": "Ozone",
+    "spreadsheet units": "ppm",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "QBOi_dayZ_o3"
+  },
+  "QUOCA_dayZ_h2o": {
+    "protocol table": "Table 5",
+    "spreadsheet variable name": "H2O",
+    "spreadsheet long_name": "Water Vapor",
+    "spreadsheet units": "ppm",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_6hrPt_ta": {
+    "protocol table": "Table 6",
+    "spreadsheet variable name": "ta",
+    "spreadsheet long_name": "Air Temperature",
+    "spreadsheet units": "K",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_6hrPt_ta"
+  },
+  "QUOCA_6hrPt_ua": {
+    "protocol table": "Table 6",
+    "spreadsheet variable name": "ua",
+    "spreadsheet long_name": "Eastward wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_6hrPt_ua"
+  },
+  "QUOCA_6hrPt_va": {
+    "protocol table": "Table 6",
+    "spreadsheet variable name": "va",
+    "spreadsheet long_name": "Northward wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_6hrPt_va"
+  },
+  "QUOCA_6hrPt_wap": {
+    "protocol table": "Table 6",
+    "spreadsheet variable name": "wa",
+    "spreadsheet long_name": "Vertical Velocity",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "3-D",
+    "source CMOR variable": "QBOi_6hrPt_wap"
+  },
+  "QUOCA_6hrPtZ_ta": {
+    "protocol table": "Table 4",
+    "spreadsheet variable name": "ta",
+    "spreadsheet long_name": "Air Temperature",
+    "spreadsheet units": "K",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_6hrPtZ_ua": {
+    "protocol table": "Table 4",
+    "spreadsheet variable name": "ua",
+    "spreadsheet long_name": "Eastward Wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_6hrPtZ_va": {
+    "protocol table": "Table 4",
+    "spreadsheet variable name": "va",
+    "spreadsheet long_name": "Northward Wind",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "SNAPSI_6hrPt_va"
+  },
+  "QUOCA_6hrPtZ_wap": {
+    "protocol table": "Table 4",
+    "spreadsheet variable name": "wa",
+    "spreadsheet long_name": "Vertical velocity",
+    "spreadsheet units": "ms-1",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_6hrPtZ_vptp": {
+    "protocol table": "Table 4",
+    "spreadsheet variable name": "v\u2019T\u2019",
+    "spreadsheet long_name": "Northward Flux of Temperature",
+    "spreadsheet units": "ms-1K",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_6hrPtZ_upvp": {
+    "protocol table": "Table 4",
+    "spreadsheet variable name": "u\u2019v\u2019",
+    "spreadsheet long_name": "Northward flux of Eastward Momentum",
+    "spreadsheet units": "m2s-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  },
+  "QUOCA_6hrPtZ_upwp": {
+    "protocol table": "Table 4",
+    "spreadsheet variable name": "u\u2019w\u2019",
+    "spreadsheet long_name": "Upward Flux of Eastward Momentum",
+    "spreadsheet units": "m2s-2",
+    "spreadsheet dimension": "2-D zonal mean",
+    "source CMOR variable": "none"
+  }
+}
