@@ -40,10 +40,66 @@
             "QUOCA": "QUasi-biennial oscillation and Ozone Chemistry interactions in the Atmosphere (QUOCA)"
         },
         "institution_id": {
-            "NASAGISS": "NASA GISS, New York, USA"
+            "CCCma": "Canadian Centre for Climate Modelling and Analysis, Environment and Climate Change Canada, Victoria, BC V8P 5C2, Canada",
+            "LLNL": "Lawrence Livermore National Laboratory, Livermore, California, USA",
+            "MESSy-Consortium": "The Modular Earth Submodel System (MESSy) Consortium, represented by the Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany",
+            "MIROC": "JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa 236-0001, Japan), AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba 277-8564, Japan), NIES (National Institute for Environmental Studies, Ibaraki 305-8506, Japan), and R-CCS (RIKEN Center for Computational Science, Hyogo 650-0047, Japan)",
+            "NASA-GISS": "NASA Goddard Institute for Space Studies, New York City, New York, USA",
+            "NASA-GSFC": "NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+            "NCAR": "National Center for Atmospheric Research, Climate and Global Dynamics Laboratory, 1850 Table Mesa Drive, Boulder, CO 80305, USA",
+            "UKESM1": "MetOffice, Exeter, UK and Natural Environment Research Council, UK"
         },
         "source_id": {
-            "GISS": {
+            "MIROC-ES2H": {
+                "activity_participation": "QUOCA",
+                "cohort": "Registered",
+                "institution_id": "NIES",
+                "source_id": "CCSRNIES-MIROC32",
+                "source": "CCSRNIES-MIROC32 (2020): \natmos: CCSRNIES-MIROC3.2 (T42; 34 levels; top level 0.01 Pa) \natmosChem: stratospheric mechanism \nocean: none"
+            },
+            "CESM2-WACCM6": {
+                "activity_participation": "QUOCA",
+                "cohort": "Registered",
+                "institution_id": "NCAR",
+                "source_id": "CESM2-WACCM6",
+                "source": "CESM2-WACCM6 (2018): \naerosol: MAM4 (same grid as atmos)\natmos: WACCM6 (0.9x1.25 finite volume grid; 288 x 192 longitude/latitude; 70 levels; top level 4.5e-06 mb)\natmosChem: MAM4 (same grid as atmos)\nland: CLM5 (same grid as atmos)\nlandIce: CISM2.1\nocean: POP2 (320 x 384 longitude/latitude; 60 levels; top grid cell 0-10 m)\nocnBgchem: MARBL (same grid as ocean)\nseaIce: CICE5.1 (same grid as ocean)"
+            },
+            "AGCM3-CMAM": {
+                "activity_participation": "QUOCA",
+                "cohort": "Registered",
+                "institution_id": "CCCma",
+                "source_id": "CMAM",
+                "source": "CMAM (2020): \natmos: CanAM3.1 (T47; 48x96 linear grid; 80 levels; top level 0.08 Pa) \natmosChem: stratospheric mechanism plus CH4-NOx tropospheric \nocean: none"
+            },
+            "EMAC": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "MESSy-Consortium",
+                "source_id": "EMAC-CCMI2",
+                "source": "EMAC-CCMI2 (2020): \natmos: ECHAM5.3.02 (modified, spectral T42; 128 x 64 longitude/latitude; 90 levels; top level 0.01 hPa) \natmosChem: MECCA 4.4.0.m1 \nland: same as Atmosphere\nlandIce: none \nocean: none \nocnBgchem: none \nseaIce: same as Atmosphere"
+            },
+            "GEOSCCM": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "NASA-GSFC",
+                "source_id": "GEOSCCM",
+                "source": "GEOSCCM (2021): \natmos: NASA GMAO GEOS5 (Icarus3.2, 1-deg Cube Sphere, L72)"
+            },
+            "MIROC-ES2H": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "MIROC",
+                "source_id": "MIROC-ES2H",
+                "source": "MIROC-ES2H (2018): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)\natmosChem: CHASER4.0 (T42; 128 x 64 longitude/latitude; 81 levels; top level 0.004 hPa)\nland: MATSIRO6.0+VISIT-e ver.1.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: OECO ver.2.0; NPZD-type with C/N/P/Fe/O cycles\nseaIce: COCO4.9"
+            },
+            "UKESM1-StratTrop": {
+                "activity_participation": "CCMI2022",
+                "cohort": "Registered",
+                "institution_id": "NCAS-CAMBRIDGE",
+                "source_id": "UKESM1-StratTrop",
+                "source": "UKESM1-StratTrop: \naerosol: UKCA-GLOMAP-mode \natmos: MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85 km) \natmosChem: UKCA StratTrop version 2.0 \nland: JULES-ES-1.0 \nocean: NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m) \nocnBgchem: MEDUSA2 \nseaIce: CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)"
+            },
+            "NASA-GISS-E2-2": {
                 "activity_participation": "QUOCA",
                 "cohort": "Registered",
                 "institution_id": "NASAGISS",
