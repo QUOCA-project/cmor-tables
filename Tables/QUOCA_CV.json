@@ -41,7 +41,7 @@
         },
         "institution_id": {
             "CCCma": "Canadian Centre for Climate Modelling and Analysis, Environment and Climate Change Canada, Victoria, BC V8P 5C2, Canada",
-            "LLNL": "Lawrence Livermore National Laboratory, Livermore, California, USA",
+            "LLNL":"Lawrence Livermore National Laboratory, Livermore, CA 94550, USA. Mailing address: LLNL Climate Program, c/o Qi Tang, Principal Investigator, L-103, 7000 East Avenue, Livermore, CA 94550, USA",
             "MESSy-Consortium": "The Modular Earth Submodel System (MESSy) Consortium, represented by the Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany",
             "MIROC": "JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa 236-0001, Japan), AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba 277-8564, Japan), NIES (National Institute for Environmental Studies, Ibaraki 305-8506, Japan), and R-CCS (RIKEN Center for Computational Science, Hyogo 650-0047, Japan)",
             "NASA-GISS": "NASA Goddard Institute for Space Studies, New York City, New York, USA",
@@ -72,28 +72,21 @@
                 "source": "CMAM (2020): \natmos: CanAM3.1 (T47; 48x96 linear grid; 80 levels; top level 0.08 Pa) \natmosChem: stratospheric mechanism plus CH4-NOx tropospheric \nocean: none"
             },
             "EMAC": {
-                "activity_participation": "CCMI2022",
+                "activity_participation": "QUOCA",
                 "cohort": "Registered",
                 "institution_id": "MESSy-Consortium",
                 "source_id": "EMAC-CCMI2",
                 "source": "EMAC-CCMI2 (2020): \natmos: ECHAM5.3.02 (modified, spectral T42; 128 x 64 longitude/latitude; 90 levels; top level 0.01 hPa) \natmosChem: MECCA 4.4.0.m1 \nland: same as Atmosphere\nlandIce: none \nocean: none \nocnBgchem: none \nseaIce: same as Atmosphere"
             },
             "GEOSCCM": {
-                "activity_participation": "CCMI2022",
+                "activity_participation": "QUOCA",
                 "cohort": "Registered",
                 "institution_id": "NASA-GSFC",
                 "source_id": "GEOSCCM",
                 "source": "GEOSCCM (2021): \natmos: NASA GMAO GEOS5 (Icarus3.2, 1-deg Cube Sphere, L72)"
             },
-            "MIROC-ES2H": {
-                "activity_participation": "CCMI2022",
-                "cohort": "Registered",
-                "institution_id": "MIROC",
-                "source_id": "MIROC-ES2H",
-                "source": "MIROC-ES2H (2018): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)\natmosChem: CHASER4.0 (T42; 128 x 64 longitude/latitude; 81 levels; top level 0.004 hPa)\nland: MATSIRO6.0+VISIT-e ver.1.0\nlandIce: none\nocean: COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)\nocnBgchem: OECO ver.2.0; NPZD-type with C/N/P/Fe/O cycles\nseaIce: COCO4.9"
-            },
             "UKESM1-StratTrop": {
-                "activity_participation": "CCMI2022",
+                "activity_participation": "QUOCA",
                 "cohort": "Registered",
                 "institution_id": "NCAS-CAMBRIDGE",
                 "source_id": "UKESM1-StratTrop",
@@ -103,21 +96,25 @@
                 "activity_participation": "QUOCA",
                 "cohort": "Registered",
                 "institution_id": "NASAGISS",
-                "source_id": "",
+                "source_id": "GISS",
                 "source": ""
+            },
+            "E3SM":{
+                "activity_participation":"QUOCA",
+                "cohort":"Registered",
+                "institution_id":"LLNL",
+                "source_id":"E3SM",
+                "source":"E3SM 1.0 (2018): \naerosol: MAM4 with resuspension, marine organics, and secondary organics (same grid as atmos)\natmos: EAM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; 72 levels; top level 0.1 hPa)\natmosChem: Troposphere specified oxidants for aerosols. Stratosphere linearized interactive ozone (LINOZ v2) (same grid as atmos)\nland: ELM (v1.0, cubed sphere spectral-element grid; 5400 elements with p=3; 1 deg average grid spacing; 90 x 90 x 6 longitude/latitude/cubeface; satellite phenology mode), MOSART (v1.0, 0.5 degree latitude/longitude grid)\nlandIce: none\nocean: MPAS-Ocean (v6.0, oEC60to30 unstructured SVTs mesh with 235160 cells and 714274 edges, variable resolution 60 km to 30 km; 60 levels; top grid cell 0-10 m)\nocnBgchem: none\nseaIce: MPAS-Seaice (v6.0, same grid as ocean)"
             }
         },
         "source_type": {
-            "AER": "aerosol treatment in an atmospheric model where concentrations are calculated based on emissions, transformation, and removal processes (rather than being prescribed or omitted entirely)",
             "AGCM": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
-            "AOGCM": "coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice",
             "CHEM": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them"
         },
         "frequency": {
             "mon" : "monthly",
             "day" : "daily",
-            "6hr" : "6-hourly",
-            "3hr" : "3-hourly"
+            "6hr" : "6-hourly"
         },
         "grid_label": {
             "gm": "global mean data",
@@ -131,55 +128,51 @@
             "gr2z": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid"
         },
         "realm": {
-            "atmos": "Atmosphere",
-            "seaIce": "Sea Ice",
-            "ocean":"Ocean",
-            "land": "Land Surface"
+            "atmos": "Atmosphere"
         },
         "table_id": [
             "mon",
             "monZ",
             "day",
             "dayZ",
-            "6hr",
-            "3hr"
+            "6hr"
         ],
         "license": [
-            "^QBOi model data produced by .* is licensed under a Creative Commons Attribution.*ShareAlike 4.0 International License .https://creativecommons.org/licenses.* *Consult _ for terms of use governing QBOi output, including citation requirements and proper acknowledgment\\. *The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law\\.$"
+            "^QUOCA model data produced by .* is licensed under a Creative Commons Attribution.*ShareAlike 4.0 International License .https://creativecommons.org/licenses.* *Consult _ for terms of use governing QBOi output, including citation requirements and proper acknowledgment\\. *The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law\\.$"
         ],
         "mip_era": [
-            "QBOi"
+            "QUOCA"
         ],
         "sub_experiment_id": {
             "none": "none"
         },
         "experiment_id": {
-            "QBOiExp1": {
-                "activity_id": "QBOi",
-                "experiment": "Climate run with AMIP boundary conditions",
-                "experiment_id": "QBOiExp1",
+            "PDINT": {
+                "activity_id": "QUOCA",
+                "experiment": "Climate run with AMIP boundary conditions and full interactive chemistry",
+                "experiment_id": "PDINT",
                 "parent_experiment_id": "no parent",
                 "sub_experiment_id": "none"
             },
-            "QBOiExp2": {
-                "activity_id": "QBOi",
-                "experiment": "Climate run with climatological AMIP boundary conditions",
-                "experiment_id": "QBOiExp2",
+            "PDNINT": {
+                "activity_id": "QUOCA",
+                "experiment": "Climate run with climatological AMIP boundary conditions and prescribed 3D ozone",
+                "experiment_id": "PDINT",
                 "parent_experiment_id": "no parent",
                 "sub_experiment_id": "none"
             },
-            "QBOiElNino": {
-                "activity_id": "QBOi",
-                "experiment": "Climate run with climatological AMIP + El Nino boundary conditions",
-                "experiment_id": "QBOiElNino",
-                "parent_experiment_id": "no parent",
+            "FTNINT": {
+                "activity_id": "QUOCA",
+                "experiment": "Climate run with 4xCO2, SST+4K and PD NINT prescribed ozone ",
+                "experiment_id": "FTNINT",
+                "parent_experiment_id": "PDNINT",
                 "sub_experiment_id": "none"
             },
-            "QBOiLaNina": {
-                "activity_id": "QBOi",
-                "experiment": "Climate run with climatological AMIP + La Nina boundary conditions",
-                "experiment_id": "QBOiLaNina",
-                "parent_experiment_id": "no parent",
+            "FTINT": {
+                "activity_id": "QUOCA",
+                "experiment": "Climate run with 4xCO2 and SST+4K and full interactive chemistry",
+                "experiment_id": "FTNINT",
+                "parent_experiment_id": "PDINT",
                 "sub_experiment_id": "none"
             },
             "QBOiExp1-ObsQBO": {
