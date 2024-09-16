@@ -172,19 +172,19 @@
                 "activity_id": "QUOCA",
                 "experiment": "Climate run with 4xCO2 and SST+4K and full interactive chemistry",
                 "experiment_id": "FTNINT",
-                "parent_experiment_id": "PDINT",
+                "parent_experiment_id": "no parent",
                 "sub_experiment_id": "none"
             },
-            "QBOiExp1-ObsQBO": {
-                "activity_id": "QBOi",
-                "experiment": "Climate run with AMIP boundary conditions and zonal-mean tropical stratosphere nudged to reanalysis",
+            "FTINT-PDSST": {
+                "activity_id": "QUOCA",
+                "experiment": "Identical to FT INT except using PDINT SSTs",
                 "experiment_id": "QBOiExp1-ObsQBO",
                 "parent_experiment_id": "no parent",
                 "sub_experiment_id": "none"
             },
-            "QBOiExp1-NoQBO": {
+            "FTINT-PDCO2": {
                 "activity_id": "QBOi",
-                "experiment": "Climate run with AMIP boundary conditions and zonal-mean tropical stratosphere nudged to reanalysis climatology",
+                "experiment": "Identical to FTINT except using PDINT CO2",
                 "experiment_id": "QBOiExp1-NoQBO",
                 "parent_experiment_id": "no parent",
                 "sub_experiment_id": "none"
