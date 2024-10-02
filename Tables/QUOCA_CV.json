@@ -138,7 +138,7 @@
             "6hr"
         ],
         "license": [
-            "^QUOCA model data produced by .* is licensed under a Creative Commons Attribution.*ShareAlike 4.0 International License .https://creativecommons.org/licenses.* *Consult _ for terms of use governing QBOi output, including citation requirements and proper acknowledgment\\. *The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law\\.$"
+            "^QUOCA model data produced by .* is licensed under a Creative Commons Attribution.*ShareAlike 4.0 International License .https://creativecommons.org/licenses.* *Consult _ for terms of use governing QUOCA output, including citation requirements and proper acknowledgment\\. *The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law\\.$"
         ],
         "mip_era": [
             "QUOCA"
@@ -149,43 +149,43 @@
         "experiment_id": {
             "PDINT": {
                 "activity_id": "QUOCA",
-                "experiment": "Climate run with AMIP boundary conditions and full interactive chemistry",
+                "experiment": "Climate run with AMIP boundary conditions and full interactive chemistry. PD_INT in protocol document.",
                 "experiment_id": "PDINT",
                 "parent_experiment_id": "no parent",
                 "sub_experiment_id": "none"
             },
             "PDNINT": {
                 "activity_id": "QUOCA",
-                "experiment": "Climate run with climatological AMIP boundary conditions and prescribed 3D ozone",
-                "experiment_id": "PDINT",
+                "experiment": "Climate run with climatological AMIP boundary conditions and prescribed 3D ozone. PD_NINT in protocol document.",
+                "experiment_id": "PDNINT",
                 "parent_experiment_id": "no parent",
                 "sub_experiment_id": "none"
             },
             "FTNINT": {
                 "activity_id": "QUOCA",
-                "experiment": "Climate run with 4xCO2, SST+4K and PD NINT prescribed ozone ",
+                "experiment": "Climate run with 4xCO2, SST+4K and PD NINT prescribed ozone. FT_NINT_4xCO2 in protocol document.",
                 "experiment_id": "FTNINT",
                 "parent_experiment_id": "PDNINT",
                 "sub_experiment_id": "none"
             },
             "FTINT": {
                 "activity_id": "QUOCA",
-                "experiment": "Climate run with 4xCO2 and SST+4K and full interactive chemistry",
+                "experiment": "Climate run with 4xCO2 and SST+4K and full interactive chemistry. FT_INT_4xCO2 in protocol document.",
                 "experiment_id": "FTNINT",
                 "parent_experiment_id": "no parent",
                 "sub_experiment_id": "none"
             },
             "FTINT-PDSST": {
                 "activity_id": "QUOCA",
-                "experiment": "Identical to FT INT except using PDINT SSTs",
-                "experiment_id": "QBOiExp1-ObsQBO",
+                "experiment": "Identical to FT INT except using PDINT SSTs. FT_INT_4xCO2+PDSST in protocol document.",
+                "experiment_id": "FTINT-PDSST",
                 "parent_experiment_id": "no parent",
                 "sub_experiment_id": "none"
             },
             "FTINT-PDCO2": {
-                "activity_id": "QBOi",
-                "experiment": "Identical to FTINT except using PDINT CO2",
-                "experiment_id": "QBOiExp1-NoQBO",
+                "activity_id": "QUOCA",
+                "experiment": "Identical to FTINT except using PDINT CO2. FT_INT_1xCO2+4KSST in protocol document.",
+                "experiment_id": "FTINT-PDCO2",
                 "parent_experiment_id": "no parent",
                 "sub_experiment_id": "none"
             }
@@ -206,7 +206,7 @@
             "^[[:digit:]]\\{2,2\\}\\.[[:digit:]]\\{2,2\\}\\.[[:digit:]]\\{2,2\\}$"
         ],
         "Conventions": [
-            "CF-1.8 QBOi"
+            "CF-1.8 QUOCA"
         ],
         "forcing_index": [
             "^\\[\\{0,\\}[[:digit:]]\\{1,\\}\\]\\{0,\\}$"
