@@ -184,7 +184,7 @@
             "bounds_values": "", 
             "generic_level_name": ""
         }, 
-        "quoca42": {
+        "plev42": {
             "standard_name": "air_pressure", 
             "units": "Pa", 
             "axis": "Z", 
@@ -232,7 +232,8 @@
                 "400.",  
                 "300.", 
                 "200.", 
-                "150.", 
+                "150.",
+                "100.",
                 "70.", 
                 "50.",  
                 "40." 
