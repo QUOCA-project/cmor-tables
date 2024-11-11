@@ -1,6 +1,6 @@
 {
   "Header": {
-    "data_specs_version": "00.1.00",
+    "data_specs_version": "00.01.00",
     "cmor_version": "3.5",
     "realm": "atmos",
     "table_date": "August 27, 2024",
