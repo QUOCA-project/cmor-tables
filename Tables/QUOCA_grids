@@ -1,6 +1,6 @@
 {
     "Header": {
-        "data_specs_version": "01.00.00",
+        "data_specs_version": "0.1.0",
         "table_id": "Table grids",
         "cmor_version": "3.5",
         "table_date": "October 2, 2024",
