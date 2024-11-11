@@ -308,7 +308,7 @@ define_cmor_tables = {
 }
 
 project = 'QUOCA'
-data_specs_version = "0.1.0"
+data_specs_version = "00.01.00"
 
 filename_template = '{project}_{table_id}.json'
 outpath = 'quoca-cmor-tables/Tables'
