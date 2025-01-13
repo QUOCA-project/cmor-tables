@@ -53,9 +53,9 @@
             "MIROC-ES2H": {
                 "activity_participation": "QUOCA",
                 "cohort": "Registered",
-                "institution_id": "NIES",
-                "source_id": "CCSRNIES-MIROC32",
-                "source": "CCSRNIES-MIROC32 (2020): \natmos: CCSRNIES-MIROC3.2 (T42; 34 levels; top level 0.01 Pa) \natmosChem: stratospheric mechanism \nocean: none"
+                "institution_id": "MIROC",
+                "source_id": "MIROC-ES2H",
+                "source": "MIROC-ES2H (2024): \naerosol: SPRINTARS6.0\natmos: CCSR AGCM (T85; 256 x 128 longitude/latitude; 90 levels; top level 0.004 hPa)\natmosChem: CHASER4.0 (T42; 128 x 64 longitude/latitude; 90 levels; top level 0.004 hPa)\nland: MATSIRO6.0\nocean: none"
             },
             "CESM2-WACCM6": {
                 "activity_participation": "QUOCA",
@@ -135,10 +135,11 @@
             "monZ",
             "day",
             "dayZ",
-            "6hr"
+            "6hrPt",
+            "6hrPtZ"
         ],
         "license": [
-            "^QUOCA model data produced by .* is licensed under a Creative Commons .* License (https://creativecommons\\.org/.*) *Consult _ for terms of use governing QUOCA output, including citation requirements and proper acknowledgment\\. *The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law\\.$"
+            "^QUOCA model data produced by .* is licensed under a Creative Commons .* License (https://creativecommons\\.org/.*) *Consult QUOCA coordinators (https://sites\\.google\\.com/cam\\.ac\\.uk/quoca-project/) for terms of use governing QUOCA output, including citation requirements and proper acknowledgment\\. *The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose\\. *All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law\\.$"
         ],
         "mip_era": [
             "QUOCA"
@@ -171,7 +172,7 @@
             "FTINT": {
                 "activity_id": "QUOCA",
                 "experiment": "Climate run with 4xCO2 and SST+4K and full interactive chemistry. FT_INT_4xCO2 in protocol document.",
-                "experiment_id": "FTNINT",
+                "experiment_id": "FTINT",
                 "parent_experiment_id": "no parent",
                 "sub_experiment_id": "none"
             },
