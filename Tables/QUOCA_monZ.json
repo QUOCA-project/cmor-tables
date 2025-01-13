@@ -568,7 +568,7 @@
       "valid_min": "",
       "valid_max": ""
     },
-    "st80-25": {
+    "st80_25": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -578,7 +578,7 @@
       "long_name": "ST80_25",
       "comment": "",
       "dimensions": "latitude plev42 time",
-      "out_name": "st80-25",
+      "out_name": "st8025",
       "type": "real",
       "positive": "",
       "valid_min": "",
@@ -764,7 +764,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "total-cl": {
+    "total_cl": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -774,7 +774,7 @@
       "long_name": "Total Cl volume mixing ratio",
       "comment": "",
       "dimensions": "latitude plev42 time",
-      "out_name": "total-cl",
+      "out_name": "totalcl",
       "type": "real",
       "positive": "",
       "valid_min": "",
@@ -782,7 +782,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "total-br": {
+    "total_br": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -792,7 +792,7 @@
       "long_name": "Total Br volume mixing ratio",
       "comment": "",
       "dimensions": "latitude plev42 time",
-      "out_name": "total-br",
+      "out_name": "totalbr",
       "type": "real",
       "positive": "",
       "valid_min": "",
@@ -946,7 +946,7 @@
       "valid_min": "",
       "valid_max": ""
     },
-    "j-o3": {
+    "jo3": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -956,7 +956,7 @@
       "long_name": "O3 photolysis frequency",
       "comment": "",
       "dimensions": "latitude plev42 time",
-      "out_name": "j-o3",
+      "out_name": "jo3",
       "type": "real",
       "positive": "",
       "valid_min": "",
@@ -964,7 +964,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "j-o2": {
+    "jo2": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "photolysis_rate_of_molecular_oxygen",
@@ -982,7 +982,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "o3-prod": {
+    "o3_prod": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_chemical_production",
@@ -992,7 +992,7 @@
       "long_name": "Ozone production",
       "comment": "",
       "dimensions": "latitude plev42 time",
-      "out_name": "o3-prod",
+      "out_name": "o3prod",
       "type": "real",
       "positive": "",
       "valid_min": "",
@@ -1000,7 +1000,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "o3-loss": {
+    "o3_loss": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_chemical_destruction",
@@ -1010,7 +1010,7 @@
       "long_name": "Chemical ozone loss",
       "comment": "",
       "dimensions": "latitude plev42 time",
-      "out_name": "o3-loss",
+      "out_name": "o3loss",
       "type": "real",
       "positive": "",
       "valid_min": "",
@@ -1018,7 +1018,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "o3-loss-ox": {
+    "o3_loss_ox": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -1028,7 +1028,7 @@
       "long_name": "Chemical ozone loss by Ox",
       "comment": "",
       "dimensions": "latitude plev42 time",
-      "out_name": "o3-loss-ox",
+      "out_name": "o3lossox",
       "type": "real",
       "positive": "",
       "valid_min": "",
@@ -1036,7 +1036,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "o3-loss-hox": {
+    "o3_loss_hox": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -1046,7 +1046,7 @@
       "long_name": "Chemical ozone loss by HOx",
       "comment": "",
       "dimensions": "latitude plev42 time",
-      "out_name": "o3-loss-hox",
+      "out_name": "o3losshox",
       "type": "real",
       "positive": "",
       "valid_min": "",
@@ -1054,7 +1054,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "o3-loss-nox": {
+    "o3_loss_nox": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -1064,7 +1064,7 @@
       "long_name": "Chemical ozone loss by NOx",
       "comment": "",
       "dimensions": "latitude plev42 time",
-      "out_name": "o3-loss-nox",
+      "out_name": "o3lossnox",
       "type": "real",
       "positive": "",
       "valid_min": "",
@@ -1072,7 +1072,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "o3-loss-clox": {
+    "o3_loss_clox": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -1082,7 +1082,7 @@
       "long_name": "Chemical ozone loss by ClOx",
       "comment": "",
       "dimensions": "latitude plev42 time",
-      "out_name": "o3-loss-clox",
+      "out_name": "o3lossclox",
       "type": "real",
       "positive": "",
       "valid_min": "",
