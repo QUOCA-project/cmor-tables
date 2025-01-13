@@ -320,7 +320,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "convec-cloud-area-frac": {
+    "convec_cloud_area_frac": {
       "frequency": "day",
       "modeling_realm": "atmos",
       "standard_name": "convective_cloud_area_fraction",
@@ -330,7 +330,7 @@
       "long_name": "Convective Cloud Area",
       "comment": "",
       "dimensions": "longitude latitude plev42 time",
-      "out_name": "convec-cloud-area-frac",
+      "out_name": "cltc",
       "type": "real",
       "positive": "",
       "valid_min": "",
@@ -338,17 +338,16 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "cloud-area-frac": {
+    "cloud_area_frac": {
       "frequency": "day",
       "modeling_realm": "atmos",
       "standard_name": "cloud_area_fraction",
       "units": "%",
       "cell_methods": "area: time: mean",
       "cell_measures": "area: areacella",
-      "long_name": "CALIPSO Total Cloud Cover Percentage",
-      "comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the  Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO) instrument. Includes both large-scale and convective cloud.",
-      "dimensions": "longitude latitude plev42 time",
-      "out_name": "cltcalipso",
+      "long_name": "Total Cloud Cover Percentage",
+      "comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud.",
+      "out_name": "clt",
       "type": "real",
       "positive": "",
       "valid_min": "",
