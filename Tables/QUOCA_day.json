@@ -320,7 +320,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "convec_cloud_area_frac": {
+    "cltc": {
       "frequency": "day",
       "modeling_realm": "atmos",
       "standard_name": "convective_cloud_area_fraction",
@@ -338,7 +338,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "cloud_area_frac": {
+    "clt": {
       "frequency": "day",
       "modeling_realm": "atmos",
       "standard_name": "cloud_area_fraction",
