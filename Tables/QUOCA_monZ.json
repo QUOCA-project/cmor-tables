@@ -552,7 +552,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "aoa": {
+    "meanage": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "age_of_stratospheric_air",
@@ -568,14 +568,14 @@
       "valid_min": "",
       "valid_max": ""
     },
-    "st80_25": {
+    "st8025": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
       "units": "ppb",
       "cell_methods": "longitude: mean time: mean",
       "cell_measures": "area: areacella",
-      "long_name": "ST80_25",
+      "long_name": "ST8025",
       "comment": "",
       "dimensions": "latitude plev42 time",
       "out_name": "st8025",
@@ -764,7 +764,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "total_cl": {
+    "totalcl": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -782,7 +782,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "total_br": {
+    "totalbr": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -982,7 +982,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "o3_prod": {
+    "o3prod": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_chemical_production",
@@ -1018,7 +1018,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "o3_loss_ox": {
+    "o3lossox": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -1036,7 +1036,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "o3_loss_hox": {
+    "o3losshox": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -1054,7 +1054,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "o3_loss_nox": {
+    "o3lossnox": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
@@ -1072,7 +1072,7 @@
       "ok_min_mean_abs": "",
       "ok_max_mean_abs": ""
     },
-    "o3_loss_clox": {
+    "o3lossclox": {
       "frequency": "mon",
       "modeling_realm": "atmos",
       "standard_name": "",
