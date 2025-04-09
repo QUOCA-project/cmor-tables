@@ -285,7 +285,7 @@
     "vt": {
       "frequency": "mon",
       "modeling_realm": "atmos",
-      "standard_name": "covariance_over_longitude_of_northward_wind_and_air_temperature",
+      "standard_name": "product_of_deviations_of_northward_wind_and_air_temperature_wrt_zonal_means",
       "units": "K m s-1",
       "cell_methods": "longitude: mean time: mean",
       "cell_measures": "area: areacella",
@@ -303,7 +303,7 @@
     "uv": {
       "frequency": "mon",
       "modeling_realm": "atmos",
-      "standard_name": "covariance_over_longitude_of_eastward_wind_and_northward_wind",
+      "standard_name": "product_of_deviations_of_eastward_wind_and_northward_wind_wrt_zonal_means",
       "units": "m2 s-2",
       "cell_methods": "longitude: mean time: mean",
       "cell_measures": "area: areacella",
@@ -321,7 +321,7 @@
     "uomega": {
       "frequency": "mon",
       "modeling_realm": "atmos",
-      "standard_name": "covariance_over_longitude_of_eastward_wind_and_lagrangian_tendency_of_air_pressure",
+      "standard_name": "product_of_deviations_of_eastward_wind_and_lagrangian_tendency_of_air_pressure_wrt_zonal_means",
       "units": "Pa m s-2",
       "cell_methods": "longitude: mean time: mean",
       "cell_measures": "area: areacella",
